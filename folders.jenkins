@@ -1,0 +1,27 @@
+folder('Korea') {
+    displayName('Korea')
+    description('Folder for Korea Market')
+}
+
+folder('Korea/CD') {
+    description('CD Folder')
+}
+
+folder('Korea/CI') {
+    description('CD Folder')
+}
+
+folder('Korea/EKS-OnBoarding') {
+    description('CD Folder')
+}
+
+folder('Korea/Infra') {
+    description('CD Folder')
+}
+folder('Korea/One-Click-Deploy') {
+    description('CD Folder')
+}
+
+folder('Korea/Utilities') {
+    description('CD Folder')
+}
