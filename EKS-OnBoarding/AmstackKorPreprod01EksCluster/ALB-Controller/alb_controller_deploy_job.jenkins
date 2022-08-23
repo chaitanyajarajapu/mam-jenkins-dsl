@@ -1,4 +1,4 @@
-pipelinejob('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/ALB-controller/ALB-Controller-Deploy)
+pipelineJob('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/ALB-controller/ALB-Controller-Deploy)
   definition {
       cpsScm  {
           scm {
