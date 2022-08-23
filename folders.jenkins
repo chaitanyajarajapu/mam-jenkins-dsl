@@ -1,4 +1,3 @@
-#Jenkins job for DSL file for creating folders
 folder('Korea') {
     displayName('Korea')
     description('Folder for Korea Market')
