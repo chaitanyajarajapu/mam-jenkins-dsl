@@ -10,7 +10,7 @@ pipelineJob('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/ALB-controller/A
                   branch('main')
               }
           }
-          scriptPath('jenkins-files\AmStackKorPreprod01EksCluster\eks-onboarding\alb-controller\alb-controller.Jenkinsfile')
+          scriptPath('jenkins-files/AmStackKorPreprod01EksCluster/eks-onboarding/alb-controller/alb-controller.Jenkinsfile')
       }
   }
   }
