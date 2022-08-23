@@ -1,0 +1,15 @@
+pipelinejob('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/ALB-controller/ALB-Controller-Deploy)
+  definition {
+      cpsScm  {
+          scm {
+              git {
+                  remote {
+                    url('https://github.com/chaitanyajarajapu/mam-jenkins-dsl.git')
+                    credentials('korstack')
+                  }
+                  branch('main')
+              }
+          }
+          scriptPath('jenkins-files\AmStackKorPreprod01EksCluster\eks-onboarding\alb-controller\alb-controller.Jenkinsfile')
+      }
+  }
