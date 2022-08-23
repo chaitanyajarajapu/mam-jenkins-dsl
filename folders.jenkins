@@ -1,27 +1,87 @@
-folder('Korea') {
-    displayName('Korea')
-    description('Folder for Korea Market')
-}
+folder('Korea')
 
-folder('Korea/CD') {
-    description('CD Folder')
-}
+folder('Korea/CI')
+folder('Korea/CI/Commerce')
+folder('Korea/CI/Hybris')
+folder('Korea/CI/Solr')
+folder('Korea/CI/Java')
 
-folder('Korea/CI') {
-    description('CD Folder')
-}
+folder('Korea/EKS-OnBoarding')
+folder('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster')
+folder('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/ALB-controller')
+folder('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/ALB-ingress')
+folder('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/Autoscalar')
+folder('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/AWS-EKS-Tuning')
+folder('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/Cert-Manager')
+folder('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/EFS-csi-driver')
+folder('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/Fluent-Bit-Deployment')
+folder('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/Fluent-Bit-Daemon-Set')
+folder('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/Istio')
+folder('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/Kube-State-Metrics')
+folder('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/Management-Jobs')
+folder('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/Metrics-Server')
+folder('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/Monitoring')
+folder('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/EBS-csi-driver')
+folder('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/SFTp-Server')
+folder('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/SFTp-Server/SFTP')
+folder('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/SFTP-Server/Namespace')
+folder('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/Security')
+folder('Korea/EKS-OnBoarding/AmStackKorPreprod01EksCluster/Cortex')
 
-folder('Korea/EKS-OnBoarding') {
-    description('CD Folder')
-}
 
-folder('Korea/Infra') {
-    description('CD Folder')
-}
-folder('Korea/One-Click-Deploy') {
-    description('CD Folder')
-}
 
-folder('Korea/Utilities') {
-    description('CD Folder')
-}
+
+folder('Korea/CD')
+folder('Korea/CD/Preprod01-Hybris')
+folder('Korea/CD/Preprod01-Hybris/Dev')
+folder('Korea/CD/Preprod01-Hybris/Dev/Hybris')
+folder('Korea/CD/Preprod01-Hybris/Dev/Maintenance-Page')
+folder('Korea/CD/Preprod01-Hybris/Dev/Namespace')
+folder('Korea/CD/Preprod01-Hybris/Dev/Solr')
+folder('Korea/CD/Preprod01-Hybris/Dev/Zookeeper')
+folder('Korea/CD/Preprod01-Hybris')
+folder('Korea/CD/Preprod01-Hybris/Qa')
+folder('Korea/CD/Preprod01-Hybris/Qa/Hybris')
+folder('Korea/CD/Preprod01-Hybris/Qa/Maintenance-Page')
+folder('Korea/CD/Preprod01-Hybris/Qa/Namespace')
+folder('Korea/CD/Preprod01-Hybris/Qa/Solr')
+folder('Korea/CD/Preprod01-Hybris/Qa/Zookeeper')
+folder('Korea/CD/Preprod01-Hybris')
+folder('Korea/CD/Preprod01-Hybris/Psup')
+folder('Korea/CD/Preprod01-Hybris/Psup/Hybris')
+folder('Korea/CD/Preprod01-Hybris/Psup/Maintenance-Page')
+folder('Korea/CD/Preprod01-Hybris/Psup/Namespace')
+folder('Korea/CD/Preprod01-Hybris/Psup/Solr')
+folder('Korea/CD/Preprod01-Hybris/Psup/Zookeeper')
+folder('Korea/CD/Preprod01-Sco')
+folder('Korea/CD/Preprod01-Sco/Dev')
+folder('Korea/CD/Preprod01-Sco/Qa')
+folder('Korea/CD/Preprod01-Sco/Uat')
+folder('Korea/CD/Preprod01-Sco/Psup')
+folder('Korea/CD/Preprod01-Pos')
+folder('Korea/CD/Preprod01-Pos/Dev')
+folder('Korea/CD/Preprod01-Pos/Qa')
+folder('Korea/CD/Preprod01-Pos/Uat')
+folder('Korea/CD/Preprod01-Pos/Psup')
+folder('Korea/CD/Preprod01-Boss')
+folder('Korea/CD/Preprod01-Boss/Dev')
+folder('Korea/CD/Preprod01-Boss/Qa')
+folder('Korea/CD/Preprod01-Boss/Uat')
+folder('Korea/CD/Preprod01-Boss/Psup')
+
+
+
+folder('Korea/Infra')
+folder('Korea/Infra/Preprod01')
+folder('Korea/Infra/Preprod01/Hybris')
+folder('Korea/Infra/Preprod01/Hybris/Waf-Rules')
+folder('Korea/Infra/Preprod01/Hybris/Waf-Rules/Dev')
+folder('Korea/Infra/Preprod01/Hybris/Waf-Rules/Qa')
+folder('Korea/Infra/Preprod01/Hybris/Waf-Rules/Psup')
+
+
+folder('Korea/One-Click-Deploy')
+folder('Korea/One-Click-Deploy/Hybris')
+
+folder('Korea/Utilities')
+folder('Korea/Utilities/Preprod01')
