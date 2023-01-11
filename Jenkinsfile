@@ -19,15 +19,15 @@ pipeline {
       }
     }
 
-    stage('Deploy to prod') {
+    stage('Deploy to Staging') {
       steps {
         echo 'deployed to prod'
       }
     }
 
-    stage('ENdofScript') {
+    stage('Send Email') {
       steps {
-        echo 'Hello World'
+        emailext(subject: 'Hi', body: 'Build Complete', attachLog: true, compressLog: true, from: 'chaitanya.ja@gmail.com', saveOutput: true, to: 'sre@admin.com')
       }
     }
 
