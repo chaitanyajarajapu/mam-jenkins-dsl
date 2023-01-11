@@ -25,5 +25,11 @@ pipeline {
       }
     }
 
+    stage('ENdofScript') {
+      steps {
+        sh 'echo "Hello World"'
+      }
+    }
+
   }
 }
