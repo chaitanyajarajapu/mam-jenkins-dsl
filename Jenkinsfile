@@ -19,23 +19,17 @@ pipeline {
       }
     }
 
-    stage('Deploy to Staging') {
-      steps {
-        echo 'deployed to prod'
-      }
-    }
-
-    stage('Send Email') {
+    stage('Deploy to Dev') {
       parallel {
-        stage('Send Email') {
+        stage('Deploy to Staging') {
           steps {
-            emailext(subject: 'Hi', body: 'Build Complete', attachLog: true, compressLog: true, from: 'chaitanya.ja@gmail.com', saveOutput: true, to: 'sre@admin.com')
+            echo 'deployed to prod'
           }
         }
 
-        stage('Deploy to Prod') {
+        stage('Deploy To QA') {
           steps {
-            echo 'Deployed to Prod'
+            echo 'deployed to QA'
           }
         }
 
