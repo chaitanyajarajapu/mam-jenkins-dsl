@@ -27,7 +27,7 @@ pipeline {
 
     stage('ENdofScript') {
       steps {
-        echo "Hello World"
+        echo 'Hello World'
       }
     }
 
