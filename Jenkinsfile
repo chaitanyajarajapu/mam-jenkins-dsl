@@ -1,9 +1,27 @@
 pipeline {
   agent any
   stages {
-    stage('developer') {
+    stage('Build') {
       steps {
         echo 'developer'
+      }
+    }
+
+    stage('Test') {
+      steps {
+        echo 'Test-Test'
+      }
+    }
+
+    stage('Publish to Stage') {
+      steps {
+        echo 'publish to stage'
+      }
+    }
+
+    stage('Deploy to prod') {
+      steps {
+        echo 'deployed to prod'
       }
     }
 
