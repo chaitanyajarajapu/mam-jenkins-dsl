@@ -26,8 +26,19 @@ pipeline {
     }
 
     stage('Send Email') {
-      steps {
-        emailext(subject: 'Hi', body: 'Build Complete', attachLog: true, compressLog: true, from: 'chaitanya.ja@gmail.com', saveOutput: true, to: 'sre@admin.com')
+      parallel {
+        stage('Send Email') {
+          steps {
+            emailext(subject: 'Hi', body: 'Build Complete', attachLog: true, compressLog: true, from: 'chaitanya.ja@gmail.com', saveOutput: true, to: 'sre@admin.com')
+          }
+        }
+
+        stage('Deploy to Prod') {
+          steps {
+            echo 'Deployed to Prod'
+          }
+        }
+
       }
     }
 
