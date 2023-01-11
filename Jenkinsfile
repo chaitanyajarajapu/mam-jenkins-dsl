@@ -23,7 +23,7 @@ pipeline {
       parallel {
         stage('Deploy to Staging') {
           steps {
-            echo 'deployed to prod'
+            echo 'deployed to Dev'
           }
         }
 
