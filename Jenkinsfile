@@ -19,9 +19,9 @@ pipeline {
       }
     }
 
-    stage('Deploy to Dev') {
+    stage('Deploy to Non-Prod') {
       parallel {
-        stage('Deploy to Staging') {
+        stage('Deploy to Dev') {
           steps {
             echo 'deployed to Dev'
           }
