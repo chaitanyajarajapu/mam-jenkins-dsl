@@ -36,5 +36,11 @@ pipeline {
       }
     }
 
+    stage('Email') {
+      steps {
+        echo 'Finished sending email'
+      }
+    }
+
   }
 }
